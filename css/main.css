@@ -13,6 +13,11 @@ div {
     padding: 1rem;
     border: 3px solid #9a816d;
     margin: 0 0 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 25em;
+    padding: 1em;
+    text-align: left;
 }
 body {
   color: #333;
@@ -30,20 +35,19 @@ section {
   color: #512200;
 }
 
-div {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 25em;
-  padding: 1em;
-  text-align: left;
-}
-
 h2 {
   color: #512200;
   font-style: normal;
-  font-weight: bold;
-  text-align: left;
+  font-weight: normal;
+  text-align: center;
   margin: 0;
+  font-family: Georgia;
+}
+
+h3 {
+  color: #512200;
+  font-family: Dosis;
+  font-weight: bolder;
 }
 
 .btn {
@@ -65,4 +69,9 @@ a:hover {
   background-color: #666;
   color: #eee9de;
   border: 3px solid #666;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
 }
