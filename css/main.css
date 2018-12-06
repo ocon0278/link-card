@@ -62,7 +62,6 @@ body {
 }
 
 dl {
-  padding-top: 1em;
   width: 100%;
   overflow: hidden;
   padding: 0;
@@ -98,4 +97,5 @@ a {
 
 nav {
   border-bottom: 2px solid #9a816d;
+  padding: 1em;
 }
