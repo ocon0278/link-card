@@ -8,61 +8,48 @@ html {
   box-sizing: inherit;
 }
 
-div {
+section {
     width: auto;
     padding: 1rem;
     border: 3px solid #9a816d;
-    margin: 0 0 1rem;
     display: inline-block;
-    vertical-align: middle;
     max-width: 25em;
-    padding: 1em;
     text-align: left;
+    border-radius: 8px;
 }
 body {
-  color: #333;
   text-align: left;
-  font-family: Lato, sans-serif;
-  margin: 0;
-}
-
-section {
   background-color: #eee9de;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  text-align: center;
-  padding: 1rem;
   color: #512200;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  font-family: Georgia;
+  margin: 8px;
 }
 
 h2 {
   color: #512200;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-  font-family: Georgia;
-}
-
-h3 {
-  color: #512200;
   font-family: Dosis;
   font-weight: bolder;
+  font-size: 1.5rem;
+  margin: auto;
 }
 
 .btn {
   display: inline-block;
-  font-size: 1.2em;
-  font-family: Lato, sans-serif;
+  font-size: 1.125rem;
+  font-family: Dosis;
+  font-weight: bolder;
   text-align: center;
-  border: 3px solid #333;
+  border: 3px solid #785439;
   list-style-type: none;
-  background-color: #eee9de;
-  color: #333;
+  background-color: #785439;
+  color: #f0eee8;
   border-radius: 7px;
-  margin: 0;
-  padding: .5em .75em;
+  padding: .5em;
   text-decoration: none;
+  margin: 10px 20px;
 }
 
 a:hover {
