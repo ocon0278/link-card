@@ -8,28 +8,21 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  width: auto;
+.link-card {
   padding: 1rem;
   border: 3px solid #9a816d;
   display: inline-block;
   max-width: 25em;
   text-align: left;
   border-radius: 8px;
-  background-color: #cabdb2;
-}
-
-body {
-  text-align: center;
-  background-color: #eee9de;
+  background-color: #dcd4cd;
   color: #512200;
   font-style: normal;
   font-weight: normal;
   font-family: Georgia;
-  margin: 8px;
 }
 
-section h2 {
+.link-card h2 {
   color: #512200;
   font-family: Dosis;
   font-weight: bolder;
@@ -48,18 +41,34 @@ div a {
   background-color: #785439;
   color: #f0eee8;
   border-radius: 7px;
-  padding: .5em;
+  padding: .4em .75em .5em;
   text-decoration: none;
-  margin: 10px 20px;
+  margin: 0 0 1rem;
 }
 
-a:hover {
+.link-card:hover {
   background-color: #666;
-  color: #eee9de;
+  color: #cabdb2;
   border: 3px solid #666;
 }
 
-ul {
-  list-style: none;
-  text-align: left;
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
 }
