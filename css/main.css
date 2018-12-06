@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.link-card {
   padding: 1rem;
   border: 3px solid #9a816d;
   display: inline-block;
@@ -17,13 +17,11 @@ body {
   border-radius: 8px;
   background-color: #dcd4cd;
   color: #512200;
-  font-style: normal;
-  font-weight: normal;
   font-family: Georgia;
   text-decoration: none;
 }
 
-h2 {
+.link-card h2 {
   color: #512200;
   font-family: Dosis;
   font-weight: bolder;
@@ -31,12 +29,12 @@ h2 {
   margin: auto;
 }
 
-div {
+div a {
   display: inline-block;
   font-size: 1.125rem;
   font-family: Dosis;
   font-weight: bolder;
-  text-align: center;
+  text-align: left;
   border: 3px solid #785439;
   background-color: #785439;
   color: #f0eee8;
@@ -59,6 +57,7 @@ dl {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-size: .875rem;
 }
 
 dt {
@@ -75,4 +74,9 @@ dd {
   padding: 0;
   margin: 0;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
 }
