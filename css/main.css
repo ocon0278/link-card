@@ -29,7 +29,7 @@ html {
   margin: auto;
 }
 
-div a {
+.btn {
   display: inline-block;
   font-size: 1.125rem;
   font-family: Dosis;
@@ -41,13 +41,18 @@ div a {
   border-radius: 7px;
   padding: .4em .75em .5em;
   text-decoration: none;
-  margin: 0 0 1rem;
+  margin: 0;
+}
+
+.btn-wrap {
+  text-align: center;
+  margin: 0;
 }
 
 .link-card:hover {
-  background-color: #666;
-  color: #cabdb2;
-  border: 3px solid #666;
+  background-color: #cabdb2;
+  color: #512200;
+  border: 3px solid #9a816d;
   text-decoration: none;
 }
 
